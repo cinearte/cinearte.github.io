@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="css/csslogin.css" type="text/css">
 	</head>
     <?php
-	include('actions/valida_cookies.inc');
-	include('actions/conexao.php'); 
+	include('./actions/valida_cookies.inc');
+	include('./actions/conexao.php'); 
 ?>
 
     <?php 
