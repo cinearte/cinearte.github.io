@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Staging Template">
-    <meta name="keywords" content="Staging, unica, creative, html">
+     <meta name="description" content="Projeto CineArte - IFRS Campus Farroupilha">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CineArte | Dicas e Oficinas</title>
@@ -99,7 +98,7 @@
                       }
                       </style>
                       <figure>
-                          <img src="logo.png" alt="CineArte">
+                          <img src="logo.jpg" alt="CineArte">
                       <figcaption style="text-align: center;  font-family: 'KoHo'; font-size: 20px; font-weight: bold">Logo do projeto</figcaption>
                       </figure>
                       <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150; margin-left: 100px; 
