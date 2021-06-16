@@ -25,13 +25,13 @@
 			setcookie("nome_usuario");
 			setcookie("senha_usuario");
 			echo "Você não efetuou o LOGIN!";
-			header("Location: /cinearte/login.html");
+			header("Location: ./login.html");
 			exit;
 		}
 	}
 	else{
 		echo "Você não efetuou o LOGIN!";
-		header("Location: /cinearte/login.html");
+		header("Location: ./login.html");
 		exit;
 	}
 	mysqli_close($conexao); 
