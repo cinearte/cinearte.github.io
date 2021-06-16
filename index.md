@@ -32,15 +32,7 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper" >
-        <div class="offcanvas__logo">
-            <a href="index.php">
-                <img src="logo.png" alt="" style="margin-left: 0px; width: 190px; height: 50px; align: left"></a>
-        </div>
-    </div>
-    <!-- Offcanvas Menu End -->
+ 
 
     <!-- Header Section Begin MENU-->
     <header class="header header-normal set-bg" style="background-color: black;">
