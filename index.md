@@ -32,7 +32,15 @@
         <div class="loader"></div>
     </div>
 
- 
+ <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper" >
+        <div class="offcanvas__logo">
+            <a href="index.php">
+                <img src="logo.png" alt="" style="margin-left: 0px; width: 190px; height: 50px; align: left"></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin MENU-->
     <header class="header header-normal set-bg" style="background-color: black;">
@@ -107,7 +115,7 @@
                         }
                         </style>
                         <figure>
-                            <img src="img/cinearte1.jpg" alt="CineArte">
+                            <img src="img/cinearte1.JPG" alt="CineArte">
                         <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 20px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
                         </figure>
                     </div>
@@ -116,7 +124,7 @@
                         Os curtas são apresentados aos alunos e servidores no campus!</h3>
                     
                     <figure>
-                            <img src="img/cinearte2.jpg" alt="CineArte">
+                            <img src="img/cinearte2.JPG" alt="CineArte">
                             <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 20px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
                         </figure>
                 </div>
