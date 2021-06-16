@@ -2,13 +2,13 @@
 <html lang="zxx">
 
 <?php
-	include('actions/valida_cookies.inc');
-	include('actions/conexao.php'); 
+	include('./actions/valida_cookies.inc');
+	include('./actions/conexao.php'); 
 ?>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Staging Template">
+     <meta name="description" content="Projeto CineArte - IFRS Campus Farroupilha">
     <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
