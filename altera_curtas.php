@@ -1,7 +1,7 @@
 <html>
     <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Staging Template">
+     <meta name="description" content="Projeto CineArte - IFRS Campus Farroupilha">
     <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -28,8 +28,8 @@
     <link rel="stylesheet" href="css/csslogin.css" type="text/css">
 	</head>
     <?php
-	include('actions/valida_cookies.inc');
-	include('actions/conexao.php'); 
+	include('./actions/valida_cookies.inc');
+	include('./actions/conexao.php'); 
 ?>
 
 
@@ -131,7 +131,7 @@
     <!-- Header Section End -->
 
         <div class="sidenav">
-    <img src="form.png" alt="" style="width: 100%; height: 100%">
+    <img src="./form.png" alt="" style="width: 100%; height: 100%">
 </div>
 <div class="main">
     <div class="login-main-text">
