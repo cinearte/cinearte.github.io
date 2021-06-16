@@ -98,7 +98,7 @@
         </header>
     <!-- Header Section End -->
 		<div class="sidenav">
-    <img src="img/form.png" alt="" style="width: 100%; height: 100%">
+    <img src="form.png" alt="" style="width: 100%; height: 100%">
 </div>
 <div class="main">
 <div class="login-main-text">
