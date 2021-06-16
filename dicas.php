@@ -106,7 +106,7 @@
                         Oficinas são ofertadas como forma de auxiliar e inspirar os alunos!</h3>
                       <figure>
                          <a href=https://drive.google.com/file/d/1G58k_U40r5L1_qI-FzpSenBkpi5P-8dq/view?usp=sharing> 
-                         <img src="oficina.png" alt="CineArte"></a>
+                         <img src="oficina.PNG" alt="CineArte"></a>
                       <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 20px; font-weight: bold">Oficina apresentada pela ex-aluna Anna</figcaption>
                       </figure>
                     </div>
