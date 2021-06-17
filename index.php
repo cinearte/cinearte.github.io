@@ -129,13 +129,13 @@
                         <figcaption style="text-align: center; font-family: 'KoHo'; margin-left: 150px; font-size: 15px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
                         </figure>
                     </div>
-                    <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150; margin-left: 150px; 
+                    <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150px; margin-left: 150px; 
                     font-family: 'KoHo'; font-weight: bold; font-size: 25px;">
                         Os curtas são apresentados aos alunos e servidores no campus!</h3>
                     
                     <figure>
                             <img src="cinearte2.JPG" alt="CineArte">
-                            <figcaption style="text-align: center; margin-left: 150px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
+                            <figcaption style="text-align: center; margin-left: 150px; margin-right: 150px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
                         </figure>
                 </div>
             </div>
@@ -146,21 +146,21 @@
                         p{
                             font-size: 15px;
                             text-align: justify;
-                            margin-left: 150px;
-                            margin-right: 100px !important;
+                            margin-left: 100px;
+                            margin-right: 80px !important;
                             margin-bottom: 30px;
                         }
                         h3{
                             margin-bottom: 20px; 
                             text-align: left; 
-                            margin-left: 150px; 
+                            margin-left: 100px; 
                             font-weight: bold; 
                             font-family: 'KoHo';
                             color: white;
                             font-size: 20px;
                         }
                         h6{
-                          margin-left: 150px;
+                          margin-left: 100px;
                           font-weight: bold; 
                           font-family: 'KoHo';
                           color: white;
