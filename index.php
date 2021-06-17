@@ -54,11 +54,11 @@
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.php" style="font-size: 12px;"> Página Inicial</a></li>
-                                <li><a href="./curtas.php" style="font-size: 12px;"> Curtas</a></li>
-                                <li><a href="./downloads.php" style="font-size: 12px;">Downloads e Formatação</a></li>
-                                <li><a href="./dicas.php" style="font-size: 12px;"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style=" font-size: 12px;"> Administrador </a></li>
+                                <li class="active"><a href="index.php" style="font-size: 12px;"> Página Inicial</a></li>
+                                <li><a href="curtas.php" style="font-size: 12px;"> Curtas</a></li>
+                                <li><a href="downloads.php" style="font-size: 12px;">Downloads e Formatação</a></li>
+                                <li><a href="dicas.php" style="font-size: 12px;"> Dicas e Oficinas</a></li>
+                                <li><a href="adm.php" style=" font-size: 12px;"> Administrador </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -91,7 +91,7 @@
         <h4> Bem-vindo ao CineArte</h4>
         <br></br>
 
-        <p style="text-align: center !important; font-size: 20px !important; margin-left: 90px">Conheça o projeto de criação
+        <p style="text-align: center !important; font-size: 20px !important; margin-left: 80px">Conheça o projeto de criação
             de curta-metragens do 
             <a href="https://ifrs.edu.br/farroupilha/">IFRS - Campus Farroupilha </a>
         </p>
@@ -116,26 +116,20 @@
                         <span style="margin-top: -110px; margin-left: 100px"> Sobre o Projeto </span>
                         <h2 style="margin-bottom: 20px; margin-left: 100px; color: white; font-family: 'KoHo'; font-weight: bold; font-size: 30px !important"> CineArte</h2>
                         <style>
-                      
-                        img{
-                            border-radius: 20px;
-                            height: 300px;
-                            width: 450px;
-                            margin-left: 100px;
-                        }
+                    
                         </style>
                         <figure>
-                            <img src="cinearte1.JPG" alt="CineArte">
-                        <figcaption style="text-align: center; font-family: 'KoHo'; margin-left: 150px; font-size: 15px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
+                            <img src="cinearte1.jpg" alt="CineArte" style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
+                        <figcaption style="text-align: center; font-family: 'KoHo'; margin-left: 100px; font-size: 15px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
                         </figure>
                     </div>
-                    <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150px; margin-left: 150px; 
+                    <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 70px; margin-left: 150px; 
                     font-family: 'KoHo'; font-weight: bold; font-size: 25px;">
                         Os curtas são apresentados aos alunos e servidores no campus!</h3>
                     
                     <figure>
-                            <img src="cinearte2.JPG" alt="CineArte">
-                            <figcaption style="text-align: center; margin-left: 150px; margin-right: 150px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
+                            <img src="cinearte2.jpg" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
+                            <figcaption style="text-align: center; margin-left: 100px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
                         </figure>
                 </div>
             </div>
@@ -147,7 +141,7 @@
                             font-size: 15px;
                             text-align: justify;
                             margin-left: 100px;
-                            margin-right: 80px !important;
+                            margin-right: 70px !important;
                             margin-bottom: 30px;
                         }
                         h3{
