@@ -125,7 +125,7 @@
                         }
                         </style>
                         <figure>
-                            <img src="cinearte1.jpg" alt="CineArte">
+                            <img src="cinearte1.JPG" alt="CineArte">
                         <figcaption style="text-align: center; font-family: 'KoHo'; margin-left: 150px; font-size: 15px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
                         </figure>
                     </div>
@@ -134,7 +134,7 @@
                         Os curtas são apresentados aos alunos e servidores no campus!</h3>
                     
                     <figure>
-                            <img src="cinearte2.jpg" alt="CineArte">
+                            <img src="cinearte2.JPG" alt="CineArte">
                             <figcaption style="text-align: center; margin-left: 150px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
                         </figure>
                 </div>
