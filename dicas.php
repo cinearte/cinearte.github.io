@@ -104,7 +104,7 @@
                         }
                       </style>
                       <figure>
-                          <img src="logo.JPG" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
+                          <img src="logo.jpg" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
                       <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 100px; font-weight: bold">Logo do projeto</figcaption>
                       </figure>
                       <h3 style=" margin-bottom: 100px; text-align: center;  margin-left: 150px; margin-right: 70px;
