@@ -2585,7 +2585,7 @@ a:hover {
 
 /* Medium Device = 1200px */
 
-@media only screen and (min-width: 100%) and (max-width: 100%) {
+@media only screen  and (min-width: 992px) and (max-width: 1199px){
 	.about__pic {
 		padding-left: 0;
 	}
@@ -2593,8 +2593,15 @@ a:hover {
 		left: 8px;
 		top: 8px;
 	}
+
+	.header__menu ul{
+		margin-top: 0px !important;
+		margin-left: -100px !important;
+		width: 900px;
+	}
 	.header__menu ul li {
-		margin-right: 25px;
+		margin-right: 20px;
+	
 	}
 	.hero__slider.owl-carousel .owl-nav button {
 		left: 15px;
@@ -2606,7 +2613,7 @@ a:hover {
 
 /* Tablet Device = 768px */
 
-@media only screen and (min-width: 100%) and (max-width: 100%) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	.hero__slider.owl-carousel .owl-nav button {
 		left: 0;
 	}
@@ -2743,7 +2750,7 @@ a:hover {
 
 /* Wide Mobile = 480px */
 
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 767px) {
 	.hero__text h2 {
 		font-size: 34px;
 		line-height: 45px;
@@ -2786,7 +2793,7 @@ a:hover {
 		top: 0;
 		height: 100%;
 		width: 100%;
-		background: rgb(0, 0, 0);
+		background: transparent;
 		content: "";
 		z-index: 98;
 		-webkit-transition: all, 0.5s;
@@ -2824,18 +2831,20 @@ a:hover {
 	.slicknav_btn {
 		display: none;
 	}
-	.slicknav_nav .slicknav_row:hover {
-		border-radius: 0;
+	.slicknav_menu {
 		background: transparent;
-		color: #ffffff;
+		padding: 0;
+		margin-bottom: 30px;
 	}
-	.slicknav_nav a:hover {
-		border-radius: 0;
-		background: transparent;
-		color: #ffffff;
+	.slicknav_nav ul {
+		margin: 0;
 	}
-	.slicknav_nav {
-		display: block !important;
+	.slicknav_nav .slicknav_row,
+	.slicknav_nav a {
+		padding: 7px 0;
+		margin: 0;
+		color: #ffffff;
+		font-weight: 600;
 	}
 	.slicknav_nav .slicknav_arrow {
 		color: #ffffff;
