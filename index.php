@@ -119,7 +119,7 @@
                     
                         </style>
                         <figure>
-                            <img src="cinearte1.jpg" alt="CineArte" style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
+                            <img src="cinearte1.JPG" alt="CineArte" style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
                         <figcaption style="text-align: center; font-family: 'KoHo'; margin-left: 100px; font-size: 15px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
                         </figure>
                     </div>
@@ -128,7 +128,7 @@
                         Os curtas são apresentados aos alunos e servidores no campus!</h3>
                     
                     <figure>
-                            <img src="cinearte2.jpg" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
+                            <img src="cinearte2.JPG" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
                             <figcaption style="text-align: center; margin-left: 100px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
                         </figure>
                 </div>
