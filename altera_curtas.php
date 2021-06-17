@@ -1,11 +1,13 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
     <meta charset="UTF-8">
-     <meta name="description" content="Projeto CineArte - IFRS Campus Farroupilha">
-    <meta name="keywords" content="Staging, unica, creative, html">
+    <meta name="description" content="IFRS - Campus Farroupila | Projeto CineArte">
+    <meta name="keywords" content="CineArte, ifrs, farroupilha">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CineArte | Editar curtas </title>
+    <title>CineArte | Editar Curtas </title>
     <script type="text/javascript" src="javascript/funcoes.js"> </script>
     <script type="text/javascript" src="formcss/js.js"> </script>
     
@@ -14,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap" rel="stylesheet">
 
@@ -26,15 +31,12 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="formcss/css.css" type="text/css">
     <link rel="stylesheet" href="css/csslogin.css" type="text/css">
-	</head>
-    <?php
-	include('./actions/valida_cookies.inc');
-	include('./actions/conexao.php'); 
-?>
-
+    
+</head>
 
     <?php
-
+	include('actions/valida_cookies.inc');
+	include('actions/conexao.php'); 
         $id = $_GET['rowid']; //obtém a linha
         $nome = "";
         $obra = "";
@@ -102,23 +104,38 @@
     </div>
     <!-- Offcanvas Menu End -->
 
-        <!-- Header Section Begin -->
-    <header class="header header-normal set-bg" style="background-color: black;">
+    <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper" style="background-color: black">
+        <div class="offcanvas__logo">
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+ <!-- Header Section Begin -->
+ <header class="header header-normal set-bg" style="background-color: black; margin-top: -30px !important">
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header__logo">
-                            <a href="index.php"><img src="logo.png" alt="" style="width: 190px; height: 50px;"></a>
+                        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.php"> Página Inicial</a></li>
+                            <style>
+									a{
+										font-size: 12px !important;
+									}
+								</style>
+                                <li style="margin-left: -80px"><a href="./index.php"> Página Inicial</a></li>
                                 <li><a href="./curtas.php"> Curtas</a></li>
                                 <li><a href="./downloads.php">Downloads e Formatação</a></li>
                                 <li><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                                <li><a href="./adm.php"> Administrador </a></li>
                                 <li><a href="./logout.php"> Sair </a></li>
                             </ul>
                         </nav>
@@ -130,36 +147,45 @@
         </header>
     <!-- Header Section End -->
 
+
         <div class="sidenav">
-    <img src="./form.png" alt="" style="width: 100%; height: 100%">
+    <img src="form.png" alt="" style="width: 100%; height: 100%">
 </div>
 <div class="main">
     <div class="login-main-text">
-        <style>
-            h2{
-                color: black;
-                font-family: 'KoHo';
-            }
-
-            #left {
-                width: 49%;
-                float: left;
-                margin-right:2%;
-            }
-
-            #right {
-                width: 49%;
-                float: left;
-            }
-            label{
+    <style>
+        h2{
+            color: black;
             font-family: 'KoHo';
-            font-size: 24px;
+            font-size: 30px;
+        }
+
+        p{
+            font-family: 'KoHo';
+            font-size: 20px;
+        }
+
+        #left {
+            width: 49%;
+            float: left;
+            margin-right:2%;
+        }
+
+        #right {
+            width: 49%;
+            float: left;
+        }
+        label{
+            font-family: 'KoHo';
             color: black;
             font-weight: bold;
         }
-        </style>
-      <h2 style="font-weight: bold; font-family: 'KoHo'; font-size: 60px; margin-top: -170px !important"> Editar curta</h2>
-      <p style="margin-top: 30px; font-size: 25px;"> Preencha os campos para editar o curta selecionado</p>
+        label, input, button, textarea{
+            font-size: 12px !important;
+        }		
+    </style>
+      <h2 style="font-weight: bold;  margin-top: -170px !important"> Editar curta</h2>
+      <p style="margin-top: 30px; "> Preencha os campos para editar o curta selecionado</p>
     </div>
     <div class="col-md-6 col-sm-12">
         <div class="login-form">
@@ -170,13 +196,13 @@
         <div id="right">
             <div class="form-group">
                 <label class="label">Nome:</label>
-                <input class="form-control"  type="text" id="nome" name="nome" style= "margin-top: 10px; width: 300px;" value="<?php echo $nome;?>"/>
+                <input class="form-control"  type="text" id="nome" name="nome" style= "margin-top: 10px; width: 200px;" value="<?php echo $nome;?>"/>
             </div>
         </div>
         <div id="left">
             <div class="form-group" style="margin-left: 80px !important">
                 <label class="label">Obra:</label> 
-                <input class="form-control"  type="text" id="obra" name="obra" style= "margin-top: 10px; width: 300px;" value="<?php echo $obra;?>"/>
+                <input class="form-control"  type="text" id="obra" name="obra" style= "margin-top: 10px; width: 200px;" value="<?php echo $obra;?>"/>
             </div>
         </div>
         <div id="left">
@@ -188,28 +214,29 @@
         <div id="left">
             <div class="form-group">
                 <label class="label">Alunos:</label> 
-                <input class="form-control"  type="text" id="alunos" name="alunos" size="50" style= "width: 650px" value="<?php echo $alunos;?>">
+                <input class="form-control"  type="text" id="alunos" name="alunos" size="50" style= "width: 470px" value="<?php echo $alunos;?>">
             </div>
         </div>
         <div id="left">
             <div class="form-group">
                 <label class="label">Concepção de arte:</label> 
-                <input class="form-control"  type="text" id="concepcao" name="concepcao" style= "margin-top: 10px;  width: 650px" value="<?php echo $concepcao;?>">
+                <input class="form-control"  type="text" id="concepcao" name="concepcao" style= "margin-top: 10px;  width: 470px" value="<?php echo $concepcao;?>">
             </div>
         </div>
         <div id="left">
             <div class="form-group">
                 <label class="label" >Roteiro:</label> 
-                <input class="form-control"  type="text" id="roteiro" rows="4" cols="53" name="roteiro" style= "margin-top: 10px; width: 650px" value="<?php echo $roteiro;?>">
+                <input class="form-control"  type="text" id="roteiro" rows="4" cols="53" name="roteiro" style= "margin-top: 10px; width: 470px" value="<?php echo $roteiro;?>">
             </div>
         </div>
         <div id="left">
             <div class="form-group">
                 <label class="label">Link:</label> 
-                <input class="form-control" rows="4" cols="53" type="text" id="link" name="link" style= "margin-top: 10px; width: 650px" value="<?php echo $link;?>">
+                <input class="form-control" rows="4" cols="53" type="text" id="link" name="link" style= "margin-top: 10px; width: 470px" value="<?php echo $link;?>">
         </div>
         
-        <input type="button" value="Salvar"   class="btn btn-black" class="botao"
+        <input type="button" class="btn btn-black" 
+         value="Salvar" class="botao"
          onclick="executaPost('formulario','salvar_alt');" style="margin-top: 30px"/> <br></br>
        
     </form>  

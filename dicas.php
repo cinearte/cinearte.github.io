@@ -2,8 +2,9 @@
 <html lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
-     <meta name="description" content="Projeto CineArte - IFRS Campus Farroupilha">
+<meta charset="UTF-8">
+    <meta name="description" content="IFRS - Campus Farroupila | Projeto CineArte">
+    <meta name="keywords" content="CineArte, ifrs, farroupilha">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CineArte | Dicas e Oficinas</title>
@@ -40,7 +41,7 @@
    <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper" >
         <div class="offcanvas__logo">
-            <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 190px; height: 50px; align: left"></a>
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
@@ -54,17 +55,22 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 190px; height: 50px;"></a>
+                    <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
+                        <style>
+                                a{
+                                    font-size: 12px !important;
+                                }
+                            </style>
                             <li><a href="./index.php"> Página Inicial</a></li>
                             <li><a href="./curtas.php"> Curtas</a></li>
                             <li><a href="./downloads.php">Downloads e Formatação</a></li>
                             <li  class="active"><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                            <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                            <li><a href="./adm.php"> Administrador </a></li>
                         </ul>
                     </nav>
                 </div>
@@ -87,27 +93,27 @@
                         <div class="section-title">
                         <section class="team spad">
                     
-                            <span style="margin-top: -110px; margin-left: 100px"> Guia para a criação </span>
-                            <h2 style="margin-bottom: 20px; margin-left: 100px; color: white"> Dicas e Oficinas </h2>
+                            <span style="margin-top: -110px; margin-left: 150px; font-size: 15px"> Guia para a criação </span>
+                            <h2 style="margin-bottom: 20px; margin-left: 150px; color: white; font-size: 30px"> Dicas e Oficinas </h2>
                             <style>
-                      img{
-                        border-radius: 20px;
-                            height: 350px;
-                            width: 550px;
-                            margin-left: 100px;
-                      }
+                        img{
+                            border-radius: 20px;
+                            height: 250px;
+                            width: 400px;
+                            margin-left: 150px;
+                        }
                       </style>
                       <figure>
                           <img src="logo.jpg" alt="CineArte">
-                      <figcaption style="text-align: center;  font-family: 'KoHo'; font-size: 20px; font-weight: bold">Logo do projeto</figcaption>
+                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 180px; font-weight: bold">Logo do projeto</figcaption>
                       </figure>
-                      <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150; margin-left: 100px; 
-                    font-family: 'KoHo'; font-weight: bold;  font-size: 40px; margin-top: 100px;color: white">
+                      <h3 style=" margin-bottom: 100px; text-align: center;  margin-left: 190px; 
+                    font-family: 'KoHo'; font-weight: bold;  font-size: 25px; margin-top: 100px; color: white">
                         Oficinas são ofertadas como forma de auxiliar e inspirar os alunos!</h3>
                       <figure>
                          <a href=https://drive.google.com/file/d/1G58k_U40r5L1_qI-FzpSenBkpi5P-8dq/view?usp=sharing> 
-                         <img src="oficina.PNG" alt="CineArte"></a>
-                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 20px; font-weight: bold">Oficina apresentada pela ex-aluna Anna</figcaption>
+                         <img src="oficina.png" alt="CineArte"></a>
+                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 250px; font-weight: bold">Oficina apresentada pela ex-aluna Anna</figcaption>
                       </figure>
                     </div>
                     </div>
@@ -116,23 +122,31 @@
                     <div class="about__page__services">
                         <div class="about__page__services__text">
                         <style>
-                            p{
-                            font-size: 20px;
+                             p{
+                            font-size: 15px;
                             text-align: justify;
-                            margin-left: 100px;
+                            margin-left: 150px;
                             margin-right: 100px !important;
                             margin-bottom: 30px;
-                            }
-                            
-                            h2{
+                        }
+                        h2{
                             margin-bottom: 20px; 
                             text-align: left; 
-                            margin-right: 150; 
-                            margin-left: 100px; 
+                            margin-left: 150px; 
                             font-weight: bold; 
                             font-family: 'KoHo';
                             color: white;
-                            }
+                            font-size: 20px;
+                        }
+                        h6{
+                          margin-left: 150px;
+                          font-weight: bold; 
+                          font-family: 'KoHo';
+                          color: white;
+                          font-size: 20px;
+                          margin-bottom: 20px;
+                          margin-top: -50px
+                        }
                         </style>
                              <h2> Por onde começar? </h2>
                             <p> Primeiramente, os grupos devem ser formados, contendo todos os membros
@@ -168,45 +182,41 @@
                             para gravar a fala dos personagens durante a cena é uma técnica que pode ser aproveitada. 
                             Lembrando que a sincronização de áudio com a imagem, nesse caso, deve ser feita de forma cuidadosa na edição.
                             </p>
-
-                            <h2> Edição </h2>
-                            <p> A edição é uma parte importantíssima na produção do curta, pois é através dela que o audiovisual
-                            ganha sua forma. Aqui se decide a paleta de cores e outros efeitos, a trilha sonora, as transições
-                            entre as cenas, entre outros detalhes que farão toda diferença, de acordo com a forma de utilização. 
-                            </p>
-                            <p> No ano de 2019, a aluna e bolsista do CineArte, Anna Letícia De Cesero, apresentou uma oficina sobre edições, disponível no link:
-                                <a href=https://drive.google.com/file/d/1G58k_U40r5L1_qI-FzpSenBkpi5P-8dq/view?usp=sharing> Montagem Audiovisual</a>
-                            </p>
-                            <p> É importante lembrar que o que for utilizado no curta-metragem deve ser livre de direitos autorais, como
-                            as músicas, por exemplo.
-                            </p>
                         </div>
-    
                     </div>
                 </div>
             </div>
-     
+            <h6> Edição </h6>
+                <p> A edição é uma parte importantíssima na produção do curta, pois é através dela que o audiovisual
+                ganha sua forma. Aqui se decide a paleta de cores e outros efeitos, a trilha sonora, as transições
+                entre as cenas, entre outros detalhes que farão toda diferença, de acordo com a forma de utilização. </p>
+                
+                <p> No ano de 2019, a aluna e bolsista do CineArte, Anna Letícia De Cesero, apresentou uma oficina sobre edições, disponível no link:
+                    <a href=https://drive.google.com/file/d/1G58k_U40r5L1_qI-FzpSenBkpi5P-8dq/view?usp=sharing> Montagem Audiovisual. </a>
+                
+                 É importante lembrar que o que for utilizado no curta-metragem deve ser livre de direitos autorais, como
+                as músicas, por exemplo.
+                </p>
     </section>
     
     <br></br>
-<!-- Footer Section Begin -->
-<footer style="bottom: 0; position: fixed; margin-top:50px; width: 100%; background-color: transparent" data-setbg="black">
+    <!-- Footer Section Begin -->
+    <footer style="bottom: 0; position: fixed; margin-top:50px;  width: 100%; background-color: transparent" data-setbg="black">
         <div class="copyright">
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="copyright__text">
-                        <p style="margin-left: 20px; text-align: justify; font-size: 18px; color: white"> Copyright © <script>
+                        <p style="margin-left: 20px; text-align: justify; font-size: 10px; color: white"> Copyright © <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Template
                            </i> by 
-                           <a style="color: white" href="https://colorlib.com">Colorib</a>
+                           <a style="color:white" href="https://colorlib.com">Colorib</a>
                             | IFRS - Campus Farroupilha
                         </p>
                     </div>
                 </div>
         </div>
     </footer>
-
 <!-- Js Plugins -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -3,11 +3,9 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Staging Template">
-        <meta name="keywords" content="Staging, unica, creative, html">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> CineArte | Pesquisar </title>
+        <title> CineArte | Curtas </title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
@@ -38,33 +36,38 @@
 		include('actions/conexao.php'); 
 	?>
     
-    <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
-   <div class="offcanvas-menu-overlay"></div>
+   <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+	<div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper" style="background-color: black">
         <div class="offcanvas__logo">
-            <a href="#"><img src="logo.png" alt=""></a>
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
     <!-- Offcanvas Menu End -->
 
-    <!-- Header Section Begin -->
-    <header class="header header-normal set-bg" style="background-color: black;">
+ <!-- Header Section Begin -->
+ <header class="header header-normal set-bg" style="background-color: black; margin-top: -20px">
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header__logo">
-                            <a href="index.php"><img src="logo.png" alt="" style="width: 190px; height: 50px;"></a>
+                        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.php"> Página Inicial</a></li>
+                            <style>
+									a{
+										font-size: 12px !important;
+									}
+								</style>
+                                <li style="margin-left: -80px"><a href="./index.php"> Página Inicial</a></li>
                                 <li><a href="./curtas.php"> Curtas</a></li>
                                 <li><a href="./downloads.php">Downloads e Formatação</a></li>
                                 <li><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                                <li><a href="./adm.php"> Administrador </a></li>
                                 <li><a href="./logout.php"> Sair </a></li>
                             </ul>
                         </nav>
@@ -81,11 +84,10 @@
         $sql = "SELECT * FROM curtas WHERE nome LIKE '%$pesquisar%' or obra LIKE '%$pesquisar%' or alunos LIKE '%$pesquisar%'";
         $resultado = mysqli_query($conexao, $sql);
     ?>
-
-<table class="table table-dark table-striped table-hover" style="background-color: black">
-            <thead>
-                <br></br>
-                <tr>
+<br></br>
+<table class="table table-dark table-striped table-hover" style="background-color: black; font-size: 10px;">
+        <thead>
+            <tr style="font-size: 10px;"> 
                 <th scope="col"> Curtas</th>
                 <th scope="col"> <a href="cad_curtas.php"> Novo curta</a></th>
                 </tr>
@@ -139,31 +141,29 @@
 
 
 <!-- Footer Section Begin -->
-<footer style="bottom: 0; position: fixed; margin-top:50px; width: 100%; background-color: transparent" data-setbg="white">
+<footer style="bottom: 0; position: fixed; margin-top:50px;  width: 100%; background-color: transparent" data-setbg="black">
         <div class="copyright">
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="copyright__text">
-                        <p style="margin-left: 20px; text-align: justify; font-size: 18px; color: white"> Copyright © <script>
+                        <p style="margin-left: 20px; text-align: justify; font-size: 10px; color: white"> Copyright © <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Template
                            </i> by 
-                           <a style="color: white" href="https://colorlib.com">Colorib</a>
+                           <a style="color:white" href="https://colorlib.com">Colorib</a>
                             | IFRS - Campus Farroupilha
                         </p>
                     </div>
                 </div>
         </div>
     </footer>
-
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

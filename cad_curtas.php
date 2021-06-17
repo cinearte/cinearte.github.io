@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-     <meta name="description" content="Projeto CineArte - IFRS Campus Farroupilha">
-    <meta name="keywords" content="Staging, unica, creative, html">
+    <meta name="description" content="IFRS - Campus Farroupila | Projeto CineArte">
+    <meta name="keywords" content="CineArte, ifrs, farroupilha">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CineArte | Adicionar Curtas </title>
@@ -34,8 +34,8 @@
     
 </head>
 <?php
-	include('./actions/valida_cookies.inc');
-	include('./actions/conexao.php'); 
+	include('actions/valida_cookies.inc');
+	include('actions/conexao.php'); 
 ?>
 
 <body>
@@ -48,29 +48,34 @@
    <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper" style="background-color: black">
         <div class="offcanvas__logo">
-            <a href="#"><img src="logo.png" alt=""></a>
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
     <!-- Offcanvas Menu End -->
 
  <!-- Header Section Begin -->
- <header class="header header-normal set-bg" style="background-color: black;">
+ <header class="header header-normal set-bg" style="background-color: black; margin-top: -30px !important">
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header__logo">
-                            <a href="index.php"><img src="logo.png" alt="" style="width: 190px; height: 50px;"></a>
+                        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.php"> Página Inicial</a></li>
+                            <style>
+									a{
+										font-size: 12px !important;
+									}
+								</style>
+                                <li style="margin-left: -80px"><a href="./index.php"> Página Inicial</a></li>
                                 <li><a href="./curtas.php"> Curtas</a></li>
                                 <li><a href="./downloads.php">Downloads e Formatação</a></li>
                                 <li><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                                <li><a href="./adm.php"> Administrador </a></li>
                                 <li><a href="./logout.php"> Sair </a></li>
                             </ul>
                         </nav>
@@ -87,13 +92,17 @@
     <!-- Services Section Begin -->
  
     <div class="sidenav">
-    <img src="./form.png" alt="" style="width: 100%; height: 100%">
+    <img src="form.png" alt="" style="width: 100%; height: 100%">
 </div>
 <div class="main">
 <div class="login-main-text">
     <style>
         h2{
             color: black;
+            font-family: 'KoHo';
+        }
+
+        p{
             font-family: 'KoHo';
         }
 
@@ -109,58 +118,63 @@
         }
         label{
             font-family: 'KoHo';
-            font-size: 24px;
             color: black;
             font-weight: bold;
         }
+        label, input, button, textarea{
+            font-size: 12px !important;
+        }
+    
+				
     </style>
-    <h2 style="font-weight: bold; font-family: 'KoHo'; font-size: 60px; margin-top: -170px !important"> Novo curta</h2>
-    <p style="margin-top: 30px; font-size: 25px;"> Preencha os campos para adicionar um novo curta</p>
+    <h2 style="font-weight: bold; font-family: 'KoHo'; font-size: 30px; margin-top: -170px !important"> Novo curta</h2>
+    <p style="margin-top: 30px; font-size: 20px;"> Preencha os campos para adicionar um novo curta</p>
 </div>
     <div class="col-md-6 col-sm-12">
    <div class="login-form">
-    <form id="formulario" name="formulario" method="post" action="cad_curtasbd.php" style="text-align:left; margin-top: -50px" >
+    <form id="formulario" name="formulario" method="post" action="cad_curtasbd.php" style="text-align:left; 
+    margin-top: -100px" >
         <input type="hidden" id="id_acao" name="acao"/>
         <div id="right">
             <div class="form-group">
                 <label>Nome</label>
-                <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome do curta" />
+                <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome do curta" style="width: 200px;"/>
             </div>
         </div>
         <div id="left">
-            <div class="form-group" style="margin-left: 70px !important">
+            <div class="form-group" style="margin-left: 100px !important; margin-right: 100px">
                 <label>Obra </label>
                 <input class="form-control" type="text"
-                name="obra" id="obra" placeholder="Obra em que foi inspirado" style="width: 300px;">
+                name="obra" id="obra" placeholder="Obra em que foi inspirado" style="width: 200px;">
             </div>
         </div>
         <div id="right">
             <div class="form-group">
                 <label>Sinopse </label>
-                <textarea class="form-control" type="text" id="sinopse" name="sinopse" placeholder="Sinopse"  rows="3" cols="53" style= "margin-top: 10px; width: 300px"></textarea>
+                <textarea class="form-control" type="text" id="sinopse" name="sinopse" placeholder="Sinopse"  rows="3" cols="53" style= "margin-top: 10px; width: 200px"></textarea>
             </div>
         </div>
         <div id="left">
-            <div class="form-group" style="margin-left: 70px !important">
+            <div class="form-group" style="margin-left: 100px !important; margin-right: 100px !important">
                 <label>Alunos </label>
-                <input class="form-control" type="text" id="alunos" name="alunos" placeholder="Alunos" style= "margin-top: 10px; width: 300px" />
+                <input class="form-control" type="text" id="alunos" name="alunos" placeholder="Alunos" style= "margin-top: 10px; width: 200px" />
             </div>
         </div>
         <div id="left">
          <div class="form-group">
-            <label style= "margin-top: 40px; margin-left: -270px">Concepção de arte</label>
-            <input  class="form-control" type="text" id="concepcao" name="concepcao" placeholder="Link da pasta de arte" style= "margin-top: 10px; margin-left: -270px; width: 650px"  />
+            <label style= "margin-top: 40px; margin-left: -165px">Concepção de arte</label>
+            <input  class="form-control" type="text" id="concepcao" name="concepcao" placeholder="Link da pasta de arte" style= "margin-top: 10px; margin-left: -165px; width: 470px"  />
          </div>
     </div>
      
          <div class="form-group">
             <label>Roteiro </label>
-            <input  class="form-control" type="text" id="roteiro" name="roteiro" placeholder="Link do roteiro" style= "margin-top: 10px; width: 650px" />
+            <input  class="form-control" type="text" id="roteiro" name="roteiro" placeholder="Link do roteiro" style= "margin-top: 10px; width: 470px" />
          </div>
  
          <div class="form-group">
             <label>Link</label>
-            <input class="form-control" type="text" id="link" name="link" placeholder="Link do curta" style= "margin-top: 10px; width: 650px"/>
+            <input class="form-control" type="text" id="link" name="link" placeholder="Link do curta" style= "margin-top: 10px; width: 470px"/>
          </div>
          <input type="button" class="btn btn-black" 
          value="Salvar" class="botao" onclick="executaPost('formulario','salvar')"/>

@@ -1,8 +1,6 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="description" content="Staging Template">
-		<meta name="keywords" content="Staging, unica, creative, html">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>CineArte | Novo Administrador </title>
@@ -61,33 +59,39 @@
             <div class="loader"></div>
         </div>
 		
-		<!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
-		<div class="offcanvas-menu-overlay"></div>
-		<div class="offcanvas-menu-wrapper" style="background-color: black">
-			<div class="offcanvas__logo">
-				<a href="#"><img src="logo.png" alt=""></a>
-			</div>
-			<div id="mobile-menu-wrap"></div>
-		</div>
+	<!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+	<div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper" style="background-color: black">
+        <div class="offcanvas__logo">
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
     <!-- Offcanvas Menu End -->
 
-      <!-- Header Section Begin -->
-    <header class="header header-normal set-bg" style="background-color: black;">
+ <!-- Header Section Begin -->
+ <header class="header header-normal set-bg" style="background-color: black;">
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header__logo">
-                            <a href="index.php"><img src="logo.png" alt="" style="width: 190px; height: 50px;"></a>
+                        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.php"> Página Inicial</a></li>
+                            <style>
+									a{
+										font-size: 12px !important;
+									}
+								</style>
+                                <li style="margin-left: -80px"><a href="./index.php"> Página Inicial</a></li>
                                 <li><a href="./curtas.php"> Curtas</a></li>
                                 <li><a href="./downloads.php">Downloads e Formatação</a></li>
                                 <li><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                                <li><a href="./adm.php"> Administrador </a></li>
+                                <li><a href="./logout.php"> Sair </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -102,10 +106,16 @@
 </div>
 <div class="main">
 <div class="login-main-text">
-    <style>
+<style>
         h2{
             color: black;
             font-family: 'KoHo';
+            font-size: 30px !important;
+        }
+
+        p{
+            font-family: 'KoHo';
+            font-size: 20px !important;
         }
 
         #left {
@@ -120,17 +130,19 @@
         }
         label{
             font-family: 'KoHo';
-            font-size: 24px;
             color: black;
             font-weight: bold;
         }
+        label, input, button, textarea{
+            font-size: 12px !important;
+        }	
     </style>
     <h2 style="font-weight: bold; font-family: 'KoHo'; font-size: 60px; margin-top: -170px !important"> Novo administrador</h2>
     <p style="margin-top: 30px; font-size: 25px;"> Preencha os campos para cadastrar um novo administrador</p>
 </div>
     <div class="col-md-6 col-sm-12">
    <div class="login-form">
-    <form name="formulario" method="post" action="cad_usuario.php" style="text-align:left; margin-top: -50px">
+    <form name="formulario" method="post" action="cad_usuario.php" style="text-align:left; margin-top: -110px">
 		<div class="form-group">
 			<label class="label">Nome:</label> 
 			<input class="form-control"type="text" name="nome" placeholder="Nome" maxlength="30" size=50px/>
@@ -148,30 +160,12 @@
 			<input class="form-control" type="password" id="senha" name="senha"  placeholder="Senha" required ="required" minlength="8"  style="margin-top: 15px" size=30px/>
 		</div>
 			<input type="submit" class="btn btn-black" 
-            value="Salvar"  class="botao" onclick="return valido2()"  style="margin-top: 30px"/><br>
+            value="Salvar"  class="botao" onclick="return valido2()"  style="margin-top: 10px"/><br>
 	</form>
 	</div>
 	</div>
 	</div>
 	
-<!-- Footer Section Begin -->
-<footer style="bottom: 0; position: fixed; margin-top:50px; width: 100%; background-color: transparent" data-setbg="black">
-        <div class="copyright">
-            <div class="row">
-                <div class="col-lg-8 col-md-7">
-                    <div class="copyright__text">
-                        <p style="margin-left: 20px; text-align: justify; font-size: 18px; color: black"> Copyright © <script>
-                            document.write(new Date().getFullYear());
-                        </script> All rights reserved | Template
-                           </i> by 
-                           <a style="color: black" href="https://colorlib.com">Colorib</a>
-                            | IFRS - Campus Farroupilha
-                        </p>
-                    </div>
-                </div>
-        </div>
-    </footer>
-
 		<!-- Js Plugins -->
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>

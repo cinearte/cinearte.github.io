@@ -4,7 +4,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Projeto CineArte - IFRS - Campus Farroupilha">
+    <meta name="description" content="IFRS - Campus Farroupila | Projeto CineArte">
+    <meta name="keywords" content="CineArte, ifrs, farroupilha">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> CineArte | Página Inicial</title>
@@ -31,13 +32,13 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper" >
+   <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+   <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper" style="background-color: black">
         <div class="offcanvas__logo">
-            <a href="index.php">
-                <img src="logo.png" alt="" style="margin-left: 0px; width: 190px; height: 50px; align: left"></a>
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
         </div>
+        <div id="mobile-menu-wrap"></div>
     </div>
     <!-- Offcanvas Menu End -->
 
@@ -47,17 +48,17 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header__logo">
-                            <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 190px; height: 50px;"></a>
+                            <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.php"> Página Inicial</a></li>
-                                <li><a href="./curtas.php"> Curtas</a></li>
-                                <li><a href="./downloads.php">Downloads e Formatação</a></li>
-                                <li><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                                <li class="active"><a href="./index.php" style="font-size: 12px;"> Página Inicial</a></li>
+                                <li><a href="./curtas.php" style="font-size: 12px;"> Curtas</a></li>
+                                <li><a href="./downloads.php" style="font-size: 12px;">Downloads e Formatação</a></li>
+                                <li><a href="./dicas.php" style="font-size: 12px;"> Dicas e Oficinas</a></li>
+                                <li><a href="./adm.php" style=" font-size: 12px;"> Administrador </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -77,22 +78,32 @@
         body{
            background-image: url("img/header.gif"); 
         }
+
+        h4{
+            color: white; font-family: 'KoHo';  font-weight: bold; font-size: 30px !important; text-align: center !important;
+        }
+        #linha-horizontal {
+        width: 100%;
+        border: 1px solid white;
+        height: 0.3px;
+        }
         </style>
-        <h1 style="color: white; font-family: 'KoHo';  font-weight: bold; font-family: font-size: 80px">Bem-vindo ao CineArte</h1>
+        <h4> Bem-vindo ao CineArte</h4>
         <br></br>
-        <p style="text-align: center">Conheça o projeto de criação
+
+        <p style="text-align: center !important; font-size: 20px !important; margin-left: 90px">Conheça o projeto de criação
             de curta-metragens do 
             <a href="https://ifrs.edu.br/farroupilha/">IFRS - Campus Farroupilha </a>
         </p>
-        <br></br>
-        <br></br>
+      
         </div>
     </div>
     </div>
 
     <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
     </div>  
-
+    <br></br>
+    <br></br>
 
     <!-- About Page Section Begin -->
     <section class="about-page spad">
@@ -103,28 +114,28 @@
                     <section class="team spad">
                 
                         <span style="margin-top: -110px; margin-left: 100px"> Sobre o Projeto </span>
-                        <h2 style="margin-bottom: 20px; margin-left: 100px; color: white; font-family: 'KoHo'; font-weight: bold"> CineArte</h2>
+                        <h2 style="margin-bottom: 20px; margin-left: 100px; color: white; font-family: 'KoHo'; font-weight: bold; font-size: 30px !important"> CineArte</h2>
                         <style>
                       
                         img{
                             border-radius: 20px;
-                            height: 400px;
-                            width: 550px;
+                            height: 300px;
+                            width: 450px;
                             margin-left: 100px;
                         }
                         </style>
                         <figure>
-                            <img src="cinearte1.JPG" alt="CineArte">
-                        <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 20px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
+                            <img src="cinearte1.jpg" alt="CineArte">
+                        <figcaption style="text-align: center; font-family: 'KoHo'; margin-left: 150px; font-size: 15px; font-weight: bold">Exposição dos curtas no auditório do campus</figcaption>
                         </figure>
                     </div>
-                    <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150; margin-left: 100px; 
-                    font-family: 'KoHo'; font-weight: bold; font-size: 40px">
+                    <h3 style=" margin-bottom: 100px; text-align: center; margin-right: 150; margin-left: 150px; 
+                    font-family: 'KoHo'; font-weight: bold; font-size: 25px;">
                         Os curtas são apresentados aos alunos e servidores no campus!</h3>
                     
                     <figure>
-                            <img src="cinearte2.JPG" alt="CineArte">
-                            <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 20px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
+                            <img src="cinearte2.jpg" alt="CineArte">
+                            <figcaption style="text-align: center; margin-left: 150px; font-family: 'KoHo'; font-size:15px; font-weight: bold">Alunos assistindo à exposição no campus</figcaption>
                         </figure>
                 </div>
             </div>
@@ -133,20 +144,29 @@
                     <div class="about__page__services__text">
                     <style>
                         p{
-                            font-size: 20px;
+                            font-size: 15px;
                             text-align: justify;
-                            margin-left: 100px;
+                            margin-left: 150px;
                             margin-right: 100px !important;
                             margin-bottom: 30px;
                         }
                         h3{
                             margin-bottom: 20px; 
                             text-align: left; 
-                            margin-right: 150; 
-                            margin-left: 100px; 
+                            margin-left: 150px; 
                             font-weight: bold; 
                             font-family: 'KoHo';
-                            color: white
+                            color: white;
+                            font-size: 20px;
+                        }
+                        h6{
+                          margin-left: 150px;
+                          font-weight: bold; 
+                          font-family: 'KoHo';
+                          color: white;
+                          font-size: 20px;
+                          margin-bottom: 20px;
+                          margin-top: -50px
                         }
                         
                     </style>
@@ -163,6 +183,7 @@
                         <p > Inicialmente, o projeto consiste em uma atividade interdisciplinar, podendo abranger as disciplinas Língua Portuguesa, Literatura e Filosofia, e extracurricular. As obras e a forma de produção são definidas pelos docentes envolvidos e bolsistas, após a leitura dos alunos é realizado um debate em sala de aula sobre a obra escolhida. 
                             Reflexões e oficinas com profissionais da área cinematográfica são realizadas para auxiliar os alunos na produção de seus curtas. </p>
                         <br></br>
+                  
                         <h3> Produzindo curta-metragens</h3>
                         <p >  Em relação à produção dos curtas, os alunos podem optar por qual função desempenhar: diretor, produtor de arte, roteirista, editor e atores e, a partir disso, são formados os grupos.</p>
 
@@ -170,7 +191,12 @@
                             deve ser produzida a pasta de produção, essa que deve conter as referências visuais locações, objetos, personagens, figurinos, cores a serem utilizadas, além de trilha sonora. Dessa forma, os membros do grupo podem visualizar o que será necessário para o desenvolvimento de cada cena dentro do possível, como por exemplo a necessidade de músicas livres de direitos autorais.
                                 Oficinas teatrais também são ofertadas aos alunos e, após a conclusão dessas etapas, as gravações e edições podem começar.</p>
                         <br></br>
-                        <h3> Exposição e Avaliação</h3>
+                 
+                    </div>
+
+                </div>
+            </div>
+            <h6> Exposição e Avaliação</h6>
                         <p> Os curta-metragens são expostos no campus para alunos, professores, servidores e visitantes. 
                             Durante a exposição, são distribuídas cédulas para que o público possa eleger o melhor curta-metragem de acordo com diversas categorias.
                         </p>
@@ -179,11 +205,6 @@
                             auxiliando a equipe verificar aspectos positivos e o que pode ser aprimorado nas próximas edições. Como retorno sobre o curta-metragem, cada grupo recebe um parecer, elaborado pela equipe do projeto, 
                             em que são apontados aspectos positivos e a melhorar.
                         </p>
-                    </div>
-
-                </div>
-            </div>
-        
         </div>
     </section>
     <!-- About Page Section End -->
@@ -191,12 +212,12 @@
 
 
     <!-- Footer Section Begin -->
-    <footer style="bottom: 0; position: fixed; margin-top:50px; width: 100%; background-color: transparent" data-setbg="black">
+    <footer style="bottom: 0; position: fixed; margin-top:50px;  width: 100%; background-color: transparent" data-setbg="black">
         <div class="copyright">
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="copyright__text">
-                        <p style="margin-left: 20px; text-align: justify; font-size: 18px; color: white"> Copyright © <script>
+                        <p style="margin-left: 20px; text-align: justify; font-size: 10px; color: white"> Copyright © <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Template
                            </i> by 

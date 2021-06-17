@@ -1,52 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="zxx">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Staging Template">
-        <meta name="keywords" content="Staging, unica, creative, html">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> CineArte | Curtas</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="IFRS - Campus Farroupila | Projeto CineArte">
+    <meta name="keywords" content="CineArte, ifrs, farroupilha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CineArte | Adicionar Arquivo </title>
+    <script type="text/javascript" src="javascript/funcoes.js"> </script>
+    <script type="text/javascript" src="formcss/js.js"> </script>
+    
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap" rel="stylesheet">
 
-        <!-- Css Styles -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="formcss/css.css" type="text/css">
+    <link rel="stylesheet" href="css/csslogin.css" type="text/css">
+    
+</head>
+<?php
+	include('actions/conexao.php'); 
+?>
 
-        
-    </head>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
-	<?php 
-		include('actions/conexao.php'); 
-	?>
+   <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+   <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper" style="background-color: black">
+        <div class="offcanvas__logo">
+        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
 
-    <!-- Header Section Begin -->
-    <header class="header header-normal set-bg" style="background-color: black;">
+ <!-- Header Section Begin -->
+ <header class="header header-normal set-bg" style="background-color: black;">
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header__logo">
-                            <a href="index.php"><img src="logo.png" alt="" style="width: 190px; height: 50px;"></a>
+                        <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.php"> Página Inicial</a></li>
+                            <style>
+									a{
+										font-size: 12px !important;
+									}
+								</style>
+                                <li style="margin-left: -80px"><a href="./index.php"> Página Inicial</a></li>
                                 <li><a href="./curtas.php"> Curtas</a></li>
                                 <li><a href="./downloads.php">Downloads e Formatação</a></li>
                                 <li><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                                <li><a href="./adm.php" style="margin-right: 10px;"> Administrador </a></li>
+                                <li><a href="./adm.php"> Administrador </a></li>
                                 <li><a href="./logout.php"> Sair </a></li>
                             </ul>
                         </nav>
@@ -57,12 +85,14 @@
             </div>
         </header>
     <!-- Header Section End -->
+
     <style>
         body{
             background-color: black;
         }
         p{
             color: white;
+            font-size: 12px;
         }
     </style>
 
@@ -99,28 +129,30 @@
 	}
 ?>
 
-<!-- Footer Section Begin -->
-<footer style="bottom: 0; position: fixed; margin-top:50px; width: 100%; background-color: transparent" data-setbg="white">
+    <!-- Footer Section Begin -->
+    <footer style="bottom: 0; position: fixed; margin-top:50px;  width: 100%; background-color: transparent" data-setbg="black">
         <div class="copyright">
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="copyright__text">
-                        <p style="margin-left: 20px; text-align: justify; font-size: 18px; color: white"> Copyright © <script>
+                        <p style="margin-left: 20px; text-align: justify; font-size: 10px; color: white"> Copyright © <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Template
                            </i> by 
-                           <a style="color: white" href="https://colorlib.com">Colorib</a>
+                           <a style="color:white" href="https://colorlib.com">Colorib</a>
                             | IFRS - Campus Farroupilha
                         </p>
                     </div>
                 </div>
         </div>
     </footer>
-     <!-- Js Plugins -->
-     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
 </html>
