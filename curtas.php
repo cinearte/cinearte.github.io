@@ -95,7 +95,7 @@
         <form method="POST" action="pesquisacurtas.php">
             <input class="textbox" type="search" style="background-color: black; color: white; font-size: 12px; 
             margin-top: -30px"
-            name="pesquisar" id="pesquisar" placeholder="Pesquisar: (Nome do curta, obra, alunos)" autofocus required />
+            name="pesquisar" id="pesquisar" placeholder="Pesquisar: " autofocus required />
         </form>
     </div>
 
