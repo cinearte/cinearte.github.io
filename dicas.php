@@ -104,7 +104,7 @@
                         }
                       </style>
                       <figure>
-                          <img src="logo.jpg" alt="CineArte">
+                          <img src="logo.JPG" alt="CineArte">
                       <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 180px; font-weight: bold">Logo do projeto</figcaption>
                       </figure>
                       <h3 style=" margin-bottom: 100px; text-align: center;  margin-left: 190px; 
@@ -112,7 +112,7 @@
                         Oficinas são ofertadas como forma de auxiliar e inspirar os alunos!</h3>
                       <figure>
                          <a href=https://drive.google.com/file/d/1G58k_U40r5L1_qI-FzpSenBkpi5P-8dq/view?usp=sharing> 
-                         <img src="oficina.png" alt="CineArte"></a>
+                         <img src="oficina.PNG" alt="CineArte"></a>
                       <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 250px; font-weight: bold">Oficina apresentada pela ex-aluna Anna</figcaption>
                       </figure>
                     </div>
