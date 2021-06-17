@@ -36,10 +36,9 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
-   <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
+ <!-- Offcanvas Menu Begin   PERMITE O MENU MOBILE-->
    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper" >
+    <div class="offcanvas-menu-wrapper" style="background-color: black">
         <div class="offcanvas__logo">
         <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
         </div>
@@ -47,40 +46,32 @@
     </div>
     <!-- Offcanvas Menu End -->
 
-
-
-    <!-- Header Section Begin -->
+    <!-- Header Section Begin MENU-->
     <header class="header header-normal set-bg" style="background-color: black;">
-    <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                    <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="header__logo">
+                            <a href="index.php"><img src="logo.png" alt="" style="margin-left: 0px; width: 130px; height: 40px;"></a>
+                        </div>
                     </div>
+                    <div class="col-lg-6">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li><a href="index.php" style="font-size: 12px;"> Página Inicial</a></li>
+                                <li><a href="curtas.php" style="font-size: 12px;"> Curtas</a></li>
+                                <li><a href="downloads.php" style="font-size: 12px;">Downloads e Formatação</a></li>
+                                <li class="active"><a href="dicas.php" style="font-size: 12px;"> Dicas e Oficinas</a></li>
+                                <li><a href="adm.php" style=" font-size: 12px;"> Administrador </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
                 </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu mobile-menu">
-                        <ul>
-                        <style>
-                                a{
-                                    font-size: 12px !important;
-                                }
-                            </style>
-                            <li><a href="./index.php"> Página Inicial</a></li>
-                            <li><a href="./curtas.php"> Curtas</a></li>
-                            <li><a href="./downloads.php">Downloads e Formatação</a></li>
-                            <li  class="active"><a href="./dicas.php"> Dicas e Oficinas</a></li>
-                            <li><a href="./adm.php"> Administrador </a></li>
-                        </ul>
-                    </nav>
-                </div>
-                
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
             </div>
-            <div class="canvas__open"><i class="fa fa-bars"></i></div>
-        </div>
-    </header>
+        </header>
     <!-- Header Section End -->
-
     <!-- Contact Section Begin -->
 
 
@@ -186,6 +177,7 @@
                     </div>
                 </div>
             </div>
+                <br></br>
             <h6> Edição </h6>
                 <p> A edição é uma parte importantíssima na produção do curta, pois é através dela que o audiovisual
                 ganha sua forma. Aqui se decide a paleta de cores e outros efeitos, a trilha sonora, as transições
