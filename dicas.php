@@ -93,8 +93,8 @@
                         <div class="section-title">
                         <section class="team spad">
                     
-                            <span style="margin-top: -110px; margin-left: 150px; font-size: 15px"> Guia para a criação </span>
-                            <h2 style="margin-bottom: 20px; margin-left: 150px; color: white; font-size: 30px"> Dicas e Oficinas </h2>
+                            <span style="margin-top: -110px; margin-left: 100px; font-size: 15px"> Guia para a criação </span>
+                            <h2 style="margin-bottom: 20px; margin-left: 100px; color: white; font-size: 30px"> Dicas e Oficinas </h2>
                             <style>
                         img{
                             border-radius: 20px;
@@ -104,16 +104,16 @@
                         }
                       </style>
                       <figure>
-                          <img src="logo2.jpg" alt="CineArte">
-                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 180px; font-weight: bold">Logo do projeto</figcaption>
+                          <img src="logo.JPG" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px">
+                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 100px; font-weight: bold">Logo do projeto</figcaption>
                       </figure>
-                      <h3 style=" margin-bottom: 100px; text-align: center;  margin-left: 190px; 
+                      <h3 style=" margin-bottom: 100px; text-align: center;  margin-left: 150px; margin-right: 70px;
                     font-family: 'KoHo'; font-weight: bold;  font-size: 25px; margin-top: 100px; color: white">
                         Oficinas são ofertadas como forma de auxiliar e inspirar os alunos!</h3>
                       <figure>
                          <a href=https://drive.google.com/file/d/1G58k_U40r5L1_qI-FzpSenBkpi5P-8dq/view?usp=sharing> 
-                         <img src="oficina.PNG" alt="CineArte"></a>
-                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 250px; font-weight: bold">Oficina apresentada pela ex-aluna Anna</figcaption>
+                         <img src="oficina.PNG" alt="CineArte"  style="margin-left: 100px !important; margin-right: 70px !important; width: 350px; heigth: 200px"></a>
+                      <figcaption style="text-align: center; font-family: 'KoHo'; font-size: 15px; margin-left: 100px; font-weight: bold">Oficina apresentada pela ex-aluna Anna</figcaption>
                       </figure>
                     </div>
                     </div>
@@ -122,24 +122,24 @@
                     <div class="about__page__services">
                         <div class="about__page__services__text">
                         <style>
-                             p{
+                         p{
                             font-size: 15px;
                             text-align: justify;
-                            margin-left: 150px;
-                            margin-right: 100px !important;
+                            margin-left: 100px;
+                            margin-right: 70px !important;
                             margin-bottom: 30px;
                         }
                         h2{
                             margin-bottom: 20px; 
                             text-align: left; 
-                            margin-left: 150px; 
+                            margin-left: 100px; 
                             font-weight: bold; 
                             font-family: 'KoHo';
                             color: white;
                             font-size: 20px;
                         }
                         h6{
-                          margin-left: 150px;
+                          margin-left: 100px;
                           font-weight: bold; 
                           font-family: 'KoHo';
                           color: white;
