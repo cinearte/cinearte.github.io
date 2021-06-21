@@ -83,9 +83,6 @@
 <table class="table table-dark table-striped table-hover" style="background-color: black; font-size: 10px;">
         <thead>
             <tr style="font-size: 10px;"> 
-            <th scope="col"> Downloads e Formatação</th>
-            </tr>
-            <tr> 
             <!-- <th>Código</th>  -->
             <th scope="col">Nome</th>
             <th scope="col">Descrição</th>
